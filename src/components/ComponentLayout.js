@@ -6,7 +6,7 @@ export default({ children, headerText }) => {
         <div>
             <Header text={headerText}/>
             <div className="row">
-                <div className="column" style={{ textAlign: "center" }}>
+                <div className="column column-50 column-offset-25" style={{ textAlign: "center" }}>
                     {children}
                 </div>
             </div>
